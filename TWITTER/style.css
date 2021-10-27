@@ -1,0 +1,118 @@
+/*.div1{
+
+    background-color: blueviolet;
+}*/
+
+body{
+
+    background-color:floralwhite;
+}
+
+.list-menu{
+
+    list-style-type: none;
+
+
+}
+
+
+.list-menu li{
+
+    display: flex;
+
+}
+
+.list-menu span{
+
+    margin-right: 10px;
+}
+
+button{
+
+    border: none;  
+    border: 0;
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 25px;
+
+   
+}
+
+.btn-new-twitter{
+
+    width: 200px;
+    
+}
+
+.icon-twitter{
+
+    padding: 20px 0px 20px 0px;
+}
+
+.publi{
+
+    list-style-type: none;
+    height:20px; 
+    width:82%;
+    margin-top: 20px;
+
+}
+
+.col-auto button{
+
+    border: none;   
+    border: 0;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 60px;
+    margin-left: 27%;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.col-auto .material-icons{
+
+    margin-left: 4%;
+}
+
+hr{
+
+    width: 50%;
+    margin-left: 20%;
+}
+
+img{
+
+    width: 530px; 
+    height: 250px;
+    align-items: center;
+    margin-left: 6%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+h1{
+
+    font-size: 35px;
+    margin-top: 18px;
+    margin-left: 4%;
+}
+
+.material-icons{
+
+    margin-left: 6%;
+    margin-top: 8px;
+
+}
+
