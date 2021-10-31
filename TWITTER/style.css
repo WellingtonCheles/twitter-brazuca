@@ -5,12 +5,16 @@
 
 body{
 
-    background-color:floralwhite;
+    background-color:white;
+    position: relative;
+
+    
 }
 
 .list-menu{
 
     list-style-type: none;
+  
 
 
 }
@@ -19,27 +23,34 @@ body{
 .list-menu li{
 
     display: flex;
+    line-height: 1.7;
 
 }
 
-.list-menu span{
+.list-menu .material-icons{
 
     margin-right: 10px;
+    margin-top: 1px;
+    
+    
 }
 
-button{
+.div1 button{
 
     border: none;  
     border: 0;
-    padding: 20px;
+    padding: 10px;
     width: 150px;
-    height: 50px;
+    height: 40px;
     display: inline-block;
-    margin: 5px;
+    margin: 15px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 60px;
     margin-left: 25px;
-
+    align-items: center;
+    text-align: center;
+    margin-top: 2px;
+    font-weight: bold;
    
 }
 
@@ -52,7 +63,53 @@ button{
 .icon-twitter{
 
     padding: 20px 0px 20px 0px;
+
+    
 }
+
+
+.div1 .perfil img{
+
+    width: 30%;
+    height: 90px;
+    margin-top: 90%;
+    border-radius: 80px;
+   
+}
+
+.div1 .perfil h6{
+
+  margin-top: -20%;
+  margin-left: 42%;
+   
+}
+
+.div1 .perfil p{
+
+    margin-top: -2%;
+    margin-left: 41%;
+     
+  }
+
+.div1 .perfil .point{
+
+    margin-top: -12%;
+    margin-left: 260px;
+    display: table-cell;
+    float: right;
+
+}
+
+.div1 .perfil .icon4{
+
+    margin-top: -25%;
+    margin-left: 252px;
+    display: table-cell;
+    float: left;
+
+}
+
+
 
 .publi{
 
@@ -60,6 +117,16 @@ button{
     height:20px; 
     width:82%;
     margin-top: 20px;
+    margin-left: 5%;
+  
+
+}
+
+.publi .mb-3 input{
+
+    border-radius: 30px;
+    margin-top: -60px;
+
 
 }
 
@@ -74,45 +141,410 @@ button{
     margin: 15px;
     cursor: pointer;
     border-radius: 60px;
-    margin-left: 27%;
+    margin-left: 8%;
     align-items: center;
     text-align: center;
+    font-weight: bold;
     
 
 }
 
 .col-auto .material-icons{
 
-    margin-left: 4%;
+    margin-left: 10%;
+    
 }
 
 hr{
 
-    width: 50%;
-    margin-left: 20%;
+    width: 100%;
+    margin-right: -6%;
+    border: 2px solid gainsboro;
+    
 }
+
+
+h2{
+
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    display: inline;
+
+}
+
+.star{
+
+    margin-left: 40%;
+    display: inline;
+
+}
+
+.material-icons{
+
+    margin-left: 10%;
+    margin-top: 8px;
+    
+
+}
+
+
+
+.col-sm-6{
+
+    border-left: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;;
+    height: 100%;
+    margin-right: 3%;
+    
+}
+
+.col-sm-6 .foto img{
+
+    display: table-cell;
+    width: 7%;
+    height: 50px;
+    border-radius: 80px;
+    margin-left: 2px;
+    margin-top: 8%;
+}
+
 
 img{
 
     width: 530px; 
     height: 250px;
     align-items: center;
-    margin-left: 6%;
-    margin-top: 50px;
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 2%;
     border-radius: 20px;
-}
-
-h1{
-
-    font-size: 35px;
-    margin-top: 18px;
-    margin-left: 4%;
-}
-
-.material-icons{
-
-    margin-left: 6%;
-    margin-top: 8px;
 
 }
 
+.tribuna img{
+
+    width: 10%;
+    height: 10%;
+    margin-left: 0%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    display: block;
+    float: left;
+    
+
+}
+
+.tribuna h4{
+
+    display: inline;
+    margin-left: 0%;
+
+}
+
+.tribuna p{
+
+    display: inline;
+    margin-left: 2%;
+}
+
+.tribuna .point{
+
+
+    margin-left: 18%;
+
+}
+
+.col-sm-6 .selecao{
+
+    margin-top: 15%;
+}
+
+
+.col-sm-6 .cbf img{
+
+    width: 10%;
+    height: 10%;
+    margin-left: 0%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    margin-top: -330px;
+    display: block;
+    float: left;
+
+
+}
+
+
+.col-sm-6 .selecao .cbf-conteudo{
+
+    margin-top: -340px;
+    margin-left: 12%;
+
+}
+
+.col-sm-6 .selecao .cbf-conteudo p{
+
+    margin-top: -32px;
+    margin-left: 24%;
+
+}
+
+.col-sm-6 .selecao .cbf-conteudo .saudade p{
+
+    margin-top: -32px;
+    margin-left: -2px;
+
+}
+
+.col-sm-6 .selecao .icon3{  
+    
+    margin-left: -1%;
+    margin-top: 280px;
+
+}
+
+
+
+.div3{
+
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.div3 .input-group-prepend input{
+
+    border-radius: 20px;
+    display: table-cell;
+    margin-top: 5%;
+    
+
+}
+
+.div3 .input-group-prepend{
+
+    width: 290px;
+    height: 100px;
+    margin-left: -12%;   
+    float: left;
+    margin-top: 5%;
+    
+}
+
+.div3 .input-group-prepend .material-icons{
+
+    float: left;
+    margin-top: -28px;
+    margin-left: 240px;
+
+}
+
+.div3 img{
+
+    width: 45%;
+    height: 65%;
+    display: table-cell;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    border-radius: 10%;
+    margin-right: -4px;
+}
+
+
+.div3 .conteudo1{
+
+
+  display: table-cell;
+  float: left;
+  margin-top: -75px;
+  margin-left: -35px;
+  margin-bottom: 5%;
+  
+}
+
+
+.div3 h5{
+
+    margin-top: -3%;
+
+}
+
+
+.div3 .conteudo2{
+
+    display: table-cell;
+    margin-top: 140px;
+    float: left;
+    margin-left: -35px;
+    margin-top: 4%;
+}
+
+.div3 .conteudo2 img{
+    
+   
+    width: 35px;
+    height: 25px;
+    display: table-cell;
+    float: right;
+    margin-top: -9%;
+    margin-left: 18%;
+    margin-right: 35%;
+
+}
+
+.div3 .conteudo2 .material-icons{
+
+    display: table-cell;
+    float: left;
+    margin-left: -1%;
+    margin-top: -12%;
+
+}
+
+.div3 .conteudo2 .formatar1 p{
+
+    margin-left: 8%;
+    margin-top: -4%;
+}
+
+
+.div3 .conteudo3 h6{
+
+    margin-top: 90%;
+    margin-left: -12%;
+
+}
+
+
+.div3 .conteudo3 .point{
+
+    display: table-cell;
+    float: right;
+    margin-top: -8%;
+
+}
+
+.div3 .conteudo3 h5{
+
+    margin-left: -12%;
+    margin-top: 1%;
+
+}
+
+.div3 .conteudo3 p{
+
+    margin-left: -12%;
+    margin-top: 1%;
+
+}
+
+.div3 .conteudo4 h6{
+
+    margin-top: 10%;
+    margin-left: -12%;
+
+}
+
+
+.div3 .conteudo4 .point{
+
+    display: table-cell;
+    float: right;
+    margin-top: -8%;
+
+}
+
+.div3 .conteudo4 h5{
+
+    margin-left: -12%;
+    margin-top: 1%;
+
+}
+
+.div3 .conteudo4 p{
+
+    margin-left: -12%;
+    margin-top: 1%;
+
+}
+
+.div3 .conteudo5 h6{
+
+    margin-top: 10%;
+    margin-left: -12%;
+
+}
+
+.div3 .conteudo5 h5{
+
+    margin-left: -12%;
+    margin-top: 1%;
+
+}
+
+.div3 .conteudo5 img{
+
+   
+    width: 45%;
+    height: 30%;
+    margin-top: -28%;
+
+}
+
+.div3 .conteudo5 p{
+
+   
+    margin-top: 10%;
+    margin-left: -12%;
+    color:dodgerblue;
+
+}
+
+
+.div3 .conteudo6 .mb-3{
+
+    margin-left: -12%;
+    border-radius: 20px;
+    margin-top: -2px;
+
+}
+
+.div3 .conteudo6 .mb-3 input{
+    
+    border-radius: 20px;
+    display: table-cell;
+
+}
+
+.div3 .conteudo6 .mb-3 span{
+
+    display: table-cell;
+    float:right;
+    margin-top: -9%;
+    margin-right: 15%;
+
+
+}
+
+.div3 .conteudo6 .mb-3 input{
+
+    font-weight: bold;
+
+}
+
+
+
+.div3 .conteudo6 .icon2 span{
+
+
+    display: table-cell;
+    float:right;
+    margin-top: -15%;
+    margin-right: 5%;
+
+
+}
